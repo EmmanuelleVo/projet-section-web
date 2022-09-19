@@ -3,12 +3,12 @@
 
 ## Cahier des charges
 
-1. Présentation du projet 
-   1. Objectifs du site : 
+### 1. Présentation du projet 
+   1. **Objectifs du site** : 
       1. Le site à réaliser est un site vitrine pour la section web du bachelier en techniques graphiques de la HEPL
       2. Son but est d'augmenter le nombre d'étudiants
       3. Ainsi qu'augmenter le visibilité des anciens étudiants
-   2. Besoins du client :
+   2. **Besoins du client** :
       1. Le site doit être vivant et être en contact avec la réalité en montrant les réalisations des étudiants
       2. Ils doit y avoir les fiches des anciens étudiants et il faut parler du métier qu'ils font 
       3. Il doit présenter le réseau des entreprises et parler de leur métier
@@ -31,13 +31,12 @@
       18. L'utilisateur doit pouvoir s'inscrire/se connecter pour pouvoir écrire/répondre dans le forum
       19. Lorsque quelqu'un répond à un sujet du forum, l'auteur du sujet reçoit un mail
       20. Il doit y avoir des notifications pour l'admin lorsqu'il reçoit un message
-   3. Public cible : 
+   3. **Public cible** : 
       1. Les futurs étudiants
       2. Les étudiants
       3. Les entreprises
-   4. Personas :
+   4. **Personas** :
    
-
     Nom : Futur Etudiant
     Âge : 18 ans 
     Métier : futur étudiant
@@ -71,13 +70,13 @@
     - Via le menu, il clique sur contact
     - En arrivant sur la page contact, il y trouve l'adresse mail et l'utilise pour prendre contact
 
-2. Charte graphique
+### 2. Charte graphique
    1. Code couleur : 
    2. Polices : 
    3. Design : 
    
-3. Description fonctionnelle et technique
-   1. Arborescence du site :
+### 3. Description fonctionnelle et technique
+   1. **Arborescence du site** :
       1. Page d'accueil 
          1. Section Actualités
          2. Section A propos de l'orientation web + CTA vers la page "A propos"
@@ -163,7 +162,7 @@
       17. Page offre d'emploi/stage
       18. 
       
-   2. Menu :
+   2. **Menu** :
       1. Accueil
       2. Actualités
       3. A propos
@@ -178,7 +177,7 @@
       8. Langue
       9. Recherche
       10. Se connecter
-   3. Footer :
+   3. **Footer** :
       1. Navigation
       2. Logo HEPL
       3. Coordonées
