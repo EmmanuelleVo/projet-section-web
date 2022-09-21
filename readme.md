@@ -10,12 +10,12 @@
       3. Ainsi qu'augmenter le visibilité des anciens étudiants
    2. **Besoins du client** :
       1. Le site doit être vivant et être en contact avec la réalité en montrant les réalisations des étudiants
-      2. Ils doit y avoir les fiches des anciens étudiants et il faut parler du métier qu'ils font 
-      3. Il doit présenter le réseau des entreprises et parler de leur métier
-         1. Mais aussi faciliter l'intéraction avec ce réseau via la publication des offres de stage et/ou d'emploi
+      2. Il doit y avoir les fiches des anciens étudiants et il faut parler du métier qu'ils font, afin que l'utilisateur ait une idée des débouchées éventuelles
+      3. Il doit présenter le réseau des entreprises et parler de leur métier pour encore une fois, avoir une idée des débouchées mais aussi mettre l'accent sur le fait que les métiers du web sont en pénurie
+         1. Mais aussi faciliter l'intéraction avec ce réseau via la publication des offres de stage et d'emploi
       4. Il doit y avoir une page dédiée à l'actualité de l'orientation web (conférences, journée portes ouvertes, événements, ...)
          1. Certaines de ces news peuvent être placées manuellement sur la page d'accueil
-      5. Il doit y avoir un espace intéractif (forum)
+      5. Il doit y avoir un espace intéractif (forum), comme ça les futurs étudiants peuvent poser des questions sur les cours, les profs,... ou des questions plus personnelles et avoir une réponse d'un étudiant actuel afin d'avoir une idée sur la réalité
       6. Le site doit informer sur les valeurs, la qualité web et les pratiques de la section, ainsi que ce qui distingue des autres formations (glossaire? - tutoriel?)
       7. Il doit présenter le programme des cours (sous forme de tableau)
       8. Le site doit présenter les professeurs avec une fiche CV par exemple
@@ -33,8 +33,9 @@
       20. Il doit y avoir des notifications pour l'admin lorsqu'il reçoit un message
    3. **Public cible** : 
       1. Les futurs étudiants
-      2. Les étudiants
-      3. Les entreprises
+      2. Les parents des futurs étudiants
+      3. Les étudiants actuels
+      4. Les entreprises
    4. **Personas** :
    
     Nom : Futur Etudiant
