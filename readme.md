@@ -3,12 +3,13 @@
 
 ## Cahier des charges
 
-### 1. Présentation du projet 
-   1. **Objectifs du site** : 
+### 1. Présentation du projet
+   1. **Client** : Le client du projet est M. Vilain, enseignant du bachelier en Techniques Graphiques de la HEPL (en web). Il demande de réaliser un site pour l'orientation web en raison du fait qu'il n'y en a pas du tout et que le site de la HEPL n'informe pas assez sur ce bachelier, ce qui peut parfois ne pas aider les étudiants qui seraient intéressés par le domaine du Web.
+   2. **Objectifs du site** : 
       1. Le site à réaliser est un site vitrine pour la section web du bachelier en techniques graphiques de la HEPL
       2. Son but est d'augmenter le nombre d'étudiants
       3. Ainsi qu'augmenter le visibilité des anciens étudiants
-   2. **Besoins du client** :
+   3. **Besoins du client** :
       1. Le site doit être vivant et être en contact avec la réalité en montrant les réalisations des étudiants
       2. Il doit y avoir les fiches des anciens étudiants et il faut parler du métier qu'ils font, afin que l'utilisateur ait une idée des débouchées éventuelles
       3. Il doit présenter le réseau des entreprises et parler de leur métier pour encore une fois, avoir une idée des débouchées mais aussi mettre l'accent sur le fait que les métiers du web sont en pénurie
@@ -16,12 +17,12 @@
       4. Il doit y avoir une page dédiée à l'actualité de l'orientation web (conférences, journée portes ouvertes, événements, ...)
          1. Certaines de ces news peuvent être placées manuellement sur la page d'accueil
       5. Il doit y avoir un espace intéractif (forum), comme ça les futurs étudiants peuvent poser des questions sur les cours, les profs,... ou des questions plus personnelles et avoir une réponse d'un étudiant actuel afin d'avoir une idée sur la réalité
-      6. Le site doit informer sur les valeurs, la qualité web et les pratiques de la section, ainsi que ce qui distingue des autres formations (glossaire? - tutoriel?)
+      6. Le site doit informer sur les valeurs, la qualité web (très demandé par les entreprises) et les pratiques de la section, ainsi que ce qui distingue des autres formations (glossaire? - tutoriel?)
       7. Il doit présenter le programme des cours (sous forme de tableau)
       8. Le site doit présenter les professeurs avec une fiche CV par exemple
       9. Il doit présenter le contexte académique (HEPL) et avoir des pages relatifs à la HEPL
       10. Il doit y avoir une page/section des questions habituelles (FAQ? par exemple)
-      11. Il doit y avoir une newsletter
+      11. Il doit y avoir une newsletter dans le site
       12. Le site doit être multilingue (français, anglais, néerlandais, allemand)
       13. Il doit y avoir des rôles différents (administrateur, co-admins,...) qui ont des droits différents
       14. Il doit y avoir une fonctionnalité de partage aux réseaux sociaux pour les réalisations des étudiants
@@ -31,12 +32,13 @@
       18. L'utilisateur doit pouvoir s'inscrire/se connecter pour pouvoir écrire/répondre dans le forum
       19. Lorsque quelqu'un répond à un sujet du forum, l'auteur du sujet reçoit un mail
       20. Il doit y avoir des notifications pour l'admin lorsqu'il reçoit un message
-   3. **Public cible** : 
+      21. Il doit y avoir un espace traduction des documentations 
+   4. **Public cible** : 
       1. Les futurs étudiants
       2. Les parents des futurs étudiants
       3. Les étudiants actuels
-      4. Les entreprises
-   4. **Personas** :
+      4. Les entreprises cherchant un stagiaire ou un employé
+   5. **Personas** :
    
     Nom : Futur Etudiant
     Âge : 18 ans 
@@ -51,8 +53,8 @@
 ----
     Nom : Seda Karadeniz
     Âge : 24 ans 
-    Métier : Etudiante
-    Besoin : Finalement en 3e année, Seda cherche désespérément un stage via Google mais n'en trouve pas qui lui convient. Heureusement, Natacha lui a renseigné le site de la section web et Seda va donc y chercher un stage !
+    Métier : Etudiante en web
+    Besoin : Finalement en 3e année, Seda cherche désespérément un stage en tant que frond-end developer via Google mais n'en trouve pas qui lui convient. Heureusement, Natacha lui a renseigné le site de la section web et Seda va donc y chercher un stage !
     Parcours de l'utilisateur :
     - Elle entre dans le site grâce à l'url que Natacha lui a fournie
     - Dans le menu, elle clique sur "emploi"
@@ -78,65 +80,41 @@
    
 ### 3. Description fonctionnelle et technique
    1. **Arborescence du site** :
-      1. Page d'accueil 
-         1. Section Actualités
-         2. Section A propos de l'orientation web + CTA vers la page "A propos"
-         3. Section Présentation du réseau entreprise + CTA vers les offres
-      2. Page des actualités (liste par plus récent)
+      1. Page d'accueil : il y aura 3 sections
+         1. La première est la section "Actualités"
+         2. La deuxième est la section "A propos de l'orientation web" avec une petite description sur l'orientation web et un CTA vers la page "A propos"
+         3. La dernière est la section "Présentation du réseau entreprise" avec une petite description et un CTA vers la page des offres d'emploi et de stage
+      2. Page des actualités est une liste des news (du plus récent)
       3. Page d'une actualité
-         1. Image principale
-         2. Titre
-         3. Date
-         4. Contenu
-         5. 
-      4. Page à propos de la section web
-         1. Contexte académique (HEPL)
-         2. Valeurs, qualité web, pratiques, débouchés + CTA voir les oeuvres des étudiants
-         3. Programme des cours + explication du cours et le nom du professeur qui donne ce cours (lien vers la fiche du professeur en question)
-         4. Quelques anciens étudiants en parlant du métier qu'ils font
+      4. Page à propos de la section web avec 4 sections
+         1. La première section parle des valeurs, de la qualité web, des pratiques, débouchés et il aura un CTA "voir les oeuvres des étudiants" pour que l'utilisateur puisse avoir une idée concrète de ce qu'il pourra faire lorsqu'il finira ses études en web
+         2. La section suivante parle du contexte académique (HEPL)
+         3. Ensuite, il y a un section "Programme des cours" avec une explication du cours et le nom du professeur qui donne ce cours (lien vers la fiche du professeur en question)
+         4. Enfin, la dernière section montre quelques anciens étudiants en parlant du métier qu'ils font
       5. Page des réalisations des étudiants (liste)
       6. Page d'une réalisation d'un étudiant
-         1. Image
-         2. Nom d projet
-         3. Auteur du projet
-         4. Date
-         5. Lien vers le site
-         6. Fonctionnalité de partage
-         7. Excerpt du projet
-         8. Langages utilisés
-         9. Contenu :
-            1. Présentation du projet (entreprise)
-            2. Besoins et objectifs
-            3. Images
-         10. CTA? vers d'autres projets
-      7. Page des professeurs 
+         1. Il y a plusieurs informations à propos de la réalisation, comme le nom, l'auteur, la date, la présentation du projet, les objectifs et les besoins et les langages utilisés
+         2. L'utilisateur peut aussi aller voir le site (s'il y en a un) via un lien
+         3. Et peut partager le projet
+      7. Page des professeurs (liste)
       8. Page de la fiche d'un professeur
-         1. Nom Prénom
-         2. Parcours du professeur
-         3. Cours qu'il donne
+         1. Cette page parle du professeur, de son parcours et des cours qu'il donne
       9. Forum
-         1. CTA "Ajouter un sujet"
-         2. Filtre par tag
-         3. Recherche
-         4. Liste des sujets
-            1. Sujets épinglés en premier
-            2. Titre du sujet
-            3. Auteur du sujet
-            4. Nombre de réponses
-            5. Date du dernier message envoyé dans le sujet
-            6. Tags
-         5. 
+         1. L'utilisateur peut ajouter un sujet au forum via un CTA
+         2. Il peut filtrer les sujets par tag en fonction de ses besoins
+         3. Il peut aussi rechercher un sujet particulier grâce à un moteur de recherche interne
+         4. Ensuite, il y a la liste des sujets
+            1. En tout premier lieu se trouvent les sujets épinglés
+            2. Pour chaque sujet, il y a le titre, l'auteur, le nombre de réponses, la date du dernier message envoyé dans le sujet et les tags liés à celui-ci
       10. Page d'un sujet du forum
-          1. Tout premier message de l'auteur du sujet avec l'auteur, le titre et la date
-          2. Messages par plus récent
-          3. Bouton "répondre" créant un textarea ou si pas connecté, une boîte de dialogue pour se connecter/s'inscrire
+          1. On trouve d'abord le tout premier message de l'auteur du sujet avec l'auteur, le titre et la date
+          2. Messages/réponses par plus récent
+          3. Bouton "répondre" créant un textarea ou si l'utilisateur n'est pas encore connecté, une boîte de dialogue pour se connecter/s'inscrire
           4. CTA "load more" pour plus de messages anciens
       11. Inscription/connexion pour le forum quand on veut répondre ou créer un nouveau sujet
       12. Page de création d'un sujet pour le forum
-          1. Titre du sujet
-          2. Message
-          3. Choisir un/des tag(s)
-          4. CTA "Ajouter le sujet"
+          1. Pour créer un sujet, il faut y mettre son titre du sujet et le message/question
+          2. L'utilisateur peut choisir un/des tag(s)
       13. Page inscription
           1. Identifiant
           2. Email
@@ -150,17 +128,19 @@
           4. CTA "Se connecter"
       15. Questions habituelles
       16. Page contact
-          1. Coordonnées (adresse, téléphone, mail, réseaux sociaux?)
-          2. Formulaire de contact
-             1. Objet
+          1. Il y a un petite section pour les coordonnées (adresse, téléphone, mail, réseaux sociaux?)
+          2. Ensuite, il y a un formulaire de contact où on donne son nom, son prénom, son email, son numéro de téléphone et son message
+          3. On peut aussi choisir l'objet du message : 
+             1. Offre de stage/emploi
+             2. Information sur la section??
+             3. Autres
                 1. Offre de stage/emploi
                 2. Information sur la section??
-             2. Nom
-             3. Prénom
-             4. Email
-             5. Message
-             6. CTA "Envoyer"
+          4. 
       17. Page offre d'emploi/stage
+          1. Dans cette page se trouve une liste des offres d'emploi et de stage qu'on peut trier (en fonction de si c'est pour un stage ou un emploi) 
+          2. L'utilisateur peut aussi recherche en fonction du métier (web developer, front-end designer, ...)
+          3. L'utilisateur peut alors soit contacter l'agence via l'email ou le numéro de téléphone indiqué ou peut aller voir le site du l'agence pour en savoir plus
       18. 
       
    2. **Menu** :
@@ -186,3 +166,9 @@
       5. Newsletter
       6. Langue
    4. 
+
+
+#### Planning : 
+wireframe textuel : 26/09
+wireframe : 03/10
+design : 10/10
