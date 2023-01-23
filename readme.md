@@ -1,6 +1,13 @@
 # Projet section web
 
 
+Site : http://13.38.74.33
+
+Wireframe : https://xd.adobe.com/view/15cd528c-454f-4eb7-a0c8-284d14fcf8a2-409e/ 
+
+Design : https://xd.adobe.com/view/2a221a83-6cec-437e-acf0-86218ae8a14b-7f71/ 
+
+
 ## Cahier des charges
 
 ### 1. Présentation du projet
@@ -163,8 +170,3 @@
       6. Langue
    4. 
 
-
-#### Planning : 
-wireframe textuel : 26/09
-wireframe : 03/10
-design : 10/10
